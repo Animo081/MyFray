@@ -1,0 +1,12 @@
+Bundle-Name: configuration
+Bundle-SymbolicName: configuration
+Bundle-Version: 1.0.0
+Export-Package: configuration.constants
+-sources: true
+resource.bundle.base.name="content.Language"
+
+Import-Package:*;resolution:=optional
+
+Export-Package:\
+    com.vector.configuration
+    -metatype: *
